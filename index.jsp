@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+	<jsp:include page="layout/header.jsp">
+		<jsp:param value="Home" name="title"/>
+	</jsp:include>
+	
+	<jsp:include page="layout/nav.jsp">
+		<jsp:param value="" name=""/>
+	</jsp:include>
+	
+	<jsp:include page="code/main.jsp">
+		<jsp:param value="" name=""/>
+	</jsp:include>
+	
+	<jsp:include page="layout/footer.jsp">
+		<jsp:param value="" name=""/>
+	</jsp:include>
+	
+	jsp:include page="code/contactus.jsp">
+		<jsp:param value="" name=""/>
+	</jsp:include>
